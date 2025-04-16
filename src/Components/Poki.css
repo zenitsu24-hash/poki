@@ -23,13 +23,13 @@
 }
 
 .box2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .box2 img{
     height: 250px;
-    width: 300px;
+    width: auto;
 }
